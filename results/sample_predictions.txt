@@ -1,0 +1,34 @@
+Selected model: Random Forest
+Selected threshold: 0.45
+
+=== CORRECT FAILURE (TRUE POSITIVE): 48 records ===
+     type  air_temp  process_temp   rpm  torque  tool_wear  actual  predicted  failure_probability
+1391    L     298.9         310.2  2737     8.8        142       1          1                0.935
+4495    L     302.6         310.4  1359    57.2         67       1          1                0.915
+8582    M     297.5         308.1  1334    72.0        151       1          1                0.610
+9664    L     299.1         310.2  1317    54.8        231       1          1                0.805
+4632    M     302.9         311.2  1330    53.7        200       1          1                0.455
+
+=== MISSED FAILURE (FALSE NEGATIVE): 20 records ===
+     type  air_temp  process_temp   rpm  torque  tool_wear  actual  predicted  failure_probability
+4851    L     303.7         312.1  1363    51.8         90       1          0                0.400
+7884    L     300.8         312.4  1465    59.1         91       1          0                0.190
+9174    L     297.8         308.9  1871    25.6        200       1          0                0.000
+3806    M     302.3         310.9  1360    44.0         67       1          0                0.365
+2671    M     299.7         309.3  1399    41.9        221       1          0                0.055
+
+=== FALSE ALARM (FALSE POSITIVE): 28 records ===
+     type  air_temp  process_temp   rpm  torque  tool_wear  actual  predicted  failure_probability
+3026    M     300.4         309.5  1888    21.9        221       0          1                0.450
+4231    L     302.2         310.8  1340    47.8         54       0          1                0.735
+6276    L     301.2         310.8  1233    64.6         45       0          1                0.550
+5574    L     302.4         312.0  1305    49.1         16       0          1                0.465
+3944    L     302.2         311.2  1381    49.4        207       0          1                0.495
+
+=== CORRECT NORMAL (TRUE NEGATIVE): 1904 records ===
+     type  air_temp  process_temp   rpm  torque  tool_wear  actual  predicted  failure_probability
+2997    L     300.5         309.8  1345    62.7        153       0          0                0.325
+4871    L     303.7         312.4  1513    40.1        135       0          0                0.000
+3858    L     302.5         311.4  1559    37.6        209       0          0                0.140
+951     H     295.6         306.3  1509    35.8         60       0          0                0.020
+6463    H     300.5         310.0  1358    60.4        102       0          0                0.145

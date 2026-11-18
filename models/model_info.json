@@ -1,0 +1,29 @@
+{
+    "best_model": "Random Forest",
+    "feature_order": [
+        "type",
+        "air_temp",
+        "process_temp",
+        "rpm",
+        "torque",
+        "tool_wear"
+    ],
+    "numeric_features": [
+        "air_temp",
+        "process_temp",
+        "rpm",
+        "torque",
+        "tool_wear"
+    ],
+    "categorical_features": [
+        "type"
+    ],
+    "type_values": [
+        "L",
+        "M",
+        "H"
+    ],
+    "classification_threshold": 0.45,
+    "positive_class": 1,
+    "negative_class": 0
+}

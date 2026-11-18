@@ -1,0 +1,5 @@
+model,cv_f1_default,cv_f1_tuned,selected_threshold,test_accuracy,test_precision,test_recall,test_f1,test_average_precision,TP,FP,FN,TN
+Dummy Classifier,0.0,0.0,0.1,0.966,0.0,0.0,0.0,0.034,0,0,68,1932
+Logistic Regression,0.235,0.453,0.9,0.963,0.434,0.338,0.38,0.382,23,30,45,1902
+Decision Tree,0.449,0.572,0.9,0.964,0.482,0.809,0.604,0.518,55,59,13,1873
+Random Forest,0.665,0.673,0.45,0.976,0.632,0.706,0.667,0.755,48,28,20,1904
